@@ -30,4 +30,5 @@ app.post('/login',(req,res)=>{
 // start server
 app.listen(port,()=>{
     console.log(`server is running on port ${port}`);
+    console.log('Hello world!');
 });
